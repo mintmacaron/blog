@@ -1,1 +1,1 @@
-web: login_session-master.wsgi --log-file -
+web: gunicorn login_session-master.wsgi --log-file -
